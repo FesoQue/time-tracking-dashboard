@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,500;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <!-- css -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Time Tracking Dashboard</title>
+  </head>
+  <body>
+    <main>
+      <div class="profile container">
+        <div class="profile-card">
+          <div class="card">
+            <div class="card-image">
+              <img src="./images/image-jeremy.png" alt="person" />
+            </div>
+            <div class="text">
+              <h1>Jeremy <br />Robson</h1>
+              <p>Report for</p>
+            </div>
+          </div>
+          <!-- timeframes buttons -->
+          <div class="btn-container">
+            <button role="button" class="btn active" data-id="daily">
+              Daily
+            </button>
+            <button role="button" class="btn" data-id="weekly">Weekly</button>
+            <button role="button" class="btn" data-id="monthly">Monthly</button>
+          </div>
+        </div>
+        <!-- activities -->
+        <div class="activity"></div>
+      </div>
+    </main>
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Feso Que</a>.
+      </div>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
