@@ -21,7 +21,7 @@ const handleUserActivity = (activities) => {
                 <!-- timeframes -->
                 <div class="timeframe">
                   <h2>${activity.timeframes.daily.current}hrs</h2>
-                  <p>Last Week - ${activity.timeframes.daily.previous}hrs</p>
+                  <p>Yesterday - ${activity.timeframes.daily.previous}hrs</p>
                 </div>
               </div>
 
@@ -47,7 +47,7 @@ const handleUserActivity = (activities) => {
                 <!-- timeframes -->
                 <div class="timeframe">
                   <h2>${activity.timeframes.monthly.current}hrs</h2>
-                  <p>Last Week - ${activity.timeframes.monthly.previous}hrs</p>
+                  <p>Last Month - ${activity.timeframes.monthly.previous}hrs</p>
                 </div>
               </div>
             </div>
